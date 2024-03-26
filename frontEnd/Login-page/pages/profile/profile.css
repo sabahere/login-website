@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+  body {
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(to bottom, #a4c4b5 50%, white 50%);
+    background-repeat: no-repeat;
+  }
+  #spacing {
+    padding-bottom: 4%;
+  }
+  .menu {
+    margin: 1%;
+    text-align: center;
+  }
+  .inline {
+    display: inline;
+  }
+  .space {
+    padding-left: 16%;
+  }
+
+  .menu li {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .profile-img {
+    border-radius: 50%;
+  }
+  .profile-name {
+    font-size: 20px;
+    padding-top: 7%;
+  }
+  .zeeza {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+  }
+  .search {
+    background-color: white;
+    border: 2px solid #8d8d8d;
+    border-radius: 2cm;
+    padding: 7px;
+    width: 500px;
+  }
+  .search input {
+    border: none;
+    width: 90%;
+    border-radius: 2cm;
+  }
+  .search input:focus {
+    outline: none;
+  }
+  .user {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    padding-top: 7%;
+  }
+
+  .container {
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 1cm;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    width: 40%;
+    height: 55%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    padding: 7% 7% 0% 7%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .profile-img2 {
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    object-fit: cover;
+  }
+  .name {
+    font-size: 40px;
+    font-weight: 600;
+    color: #464646;
+  }
+  .location {
+    color: #696969;
+    margin-bottom: 6%;
+  }
+  .username {
+    font-size: 20px;
+    color: #696969;
+    margin-bottom: 2%;
+  }
+  .bio {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 7%;
+  }
+  .know-more {
+    color: white;
+    padding: 10px 10%;
+    background-color: #696969;
+    border: 1px solid #696969;
+    font-size: 20px;
+    border-radius: 2cm;
+  }
+  .know-more:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .overlay-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    z-index: 2;
+  }
+  .settings {
+    margin: 23% 5%;
+  }
+  .setting-text {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 5%;
+  }
+  .iconbig {
+    width: 33px;
+    height: 30px;
+    padding-right: 5px;
+  }
+  .home-text {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 5%;
+  }
+  .s-list {
+    margin-top: 5%;
+  }
+  .list {
+    color: #858484;
+    font-weight: 600;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+    padding-right: 2px;
+    position: relative;
+    top: -2px;
+  }
+  .logout {
+    margin-top: 10%;
+    border: 1px solid #464646;
+    border-radius: 1cm;
+    padding: 2%;
+    width: 30%;
+    text-align: center;
+    border-style: double;
+  }
+  .setting-container {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+  }
+  .text-container {
+    text-align: center;
+    padding-left: 40%;
+    padding-right: 30%;
+  }
+  .edit-profile {
+    padding-top: 6%;
+    padding-bottom: 5%;
+  }
+  .profile3 {
+    padding-bottom: 2%;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    object-fit: cover;
+  }
+
+  input[type="file"] {
+    display: none;
+  }
+  .custom-button {
+    display: inline-block;
+    padding: 10px 15px;
+    color: blue;
+    cursor: pointer;
+  }
+  .blue {
+    color: blue;
+    text-decoration: none;
+  }
+  .edit-button {
+    width: 30%;
+    padding: 1%;
+    border: 1px solid #464646;
+    border-radius: 2cm;
+    background-color: white;
+  }
+  .edit-button:hover {
+    background-color: #464646;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+}
+
+/* Styles for laptops and larger screens */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1200px) {
+}
